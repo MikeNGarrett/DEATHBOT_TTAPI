@@ -32,8 +32,8 @@ exports.BoothSongLimit = 0;
 exports.BoothSongLimitMessage = 'DEATHBOT SONG LIMIT';
 
 // auth code for the bot to use, should be 'auth+live+xxxxxxxx'
-exports.BotAuth = 'auth+live+f4cc9c718c1fd243904c527af880f0d08e1efe16'; //process.env.TTFMBOT_USER_AUTH;
+exports.BotAuth = ''; //process.env.TTFMBOT_USER_AUTH;
 // turntable user id of the bot
-exports.BotId = '4f8b43fdeb35c102730001bb'; //process.env.TTFMBOT_USER_ID;
+exports.BotId = ''; //process.env.TTFMBOT_USER_ID;
 // turntable room id where the bot should be
-exports.BotRoom = '4e20467714169c5fc400bd45'; // process.env.TTFMBOT_ROOM_ID;
+exports.BotRoom = ''; // process.env.TTFMBOT_ROOM_ID;
