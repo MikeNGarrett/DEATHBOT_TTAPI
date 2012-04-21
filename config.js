@@ -1,5 +1,5 @@
 // turntable user id of the main bot admin
-exports.AdminId = '4ded0ef74fe7d0042c01ebc4'; //process.env.TTFMBOT_ADMIN_ID;
+exports.AdminId = ''; //process.env.TTFMBOT_ADMIN_ID;
 
 // whether or not the bot should auto-awesome every song played
 exports.AutoBop = true;
