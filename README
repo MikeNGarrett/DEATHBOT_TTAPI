@@ -1,0 +1,23 @@
+ttfmbot is a bot for use with the turntable.fm site.
+
+In order to use the bot, you'll need the following installed:
+
+    - node.js (http://nodejs.org/)
+    - MongoDB (http://www.mongodb.org/)
+    - mongoose node module (https://github.com/LearnBoost/mongoose)
+    - ttapi node module (https://github.com/alaingilbert/Turntable-API)
+
+For people new to node, the easiest way to get the modules installed is to open up a console window (Command Prompt for you Windows users, Terminal in OS X and I imagine you other *nix users know what to do) and navigate to the folder node is installed in. It should be something similar to C:\Program Files (x86)\nodejs for you Windows folks. You'll want to run Command Prompt as Administrator or type 'sudo' in front of the commands coming up if you're in OS X. Once there, run the following commands: 'npm install ttapi' and 'npm install mongoose'.
+
+You will also need to create and populate the following environment variables or hard-code the values in the config file:
+
+    - TTFMBOT_ADMIN_ID (User Id of the initial bot administrator)
+    - TTFMBOT_ROOM_ID (Room Id of the room you wish the bot to enter)
+    - TTFMBOT_USER_AUTH (Auth string of the account to be used by the bot)
+    - TTFMBOT_USER_ID (User Id of the account to be used by the bot)
+
+To get the variable values, just view cookie data for turntable.fm in your favorite browser and copy the values. The room Id can be found by going into the room and viewing the page's source.
+
+Open up the config.js file in your favorite text-editor and change values as you see fit. They should be pretty self-explanatory.
+
+Once that's all set up, get an instance of MongoDB running with default settings. Then console up the following command wherever you downloaded the bot files to: 'node bot.js'. Your new little bot dude should pop in to the room you designated and be good to go.
